@@ -10,7 +10,7 @@
 # ./rrpg4lp.sh <servername>
 #
 # NOTE: LastPass does not currently support importing CSV files to SHARED folders. Import to un-shared, then share as needed.
-#
+# Import URL for LastPass is https://lastpass.com/import.php
 # ---------------------------------------------------------------------------------------------------------------------------
 #
 # Define variables (CSV file, user name, port)
