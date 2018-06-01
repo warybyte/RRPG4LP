@@ -29,9 +29,9 @@
 #
         ssh -o loglevel=error -p $SSHPORT -t $USERN@$TSERVER "echo -e \"$RTPASSW\n$RTPASSW\" | sudo passwd root";
 #
-# Prime CSV file for logging
+# Prime CSV file for logging (if you are running against a number of servers, paste this in the file manually.
 #
-        echo "url,type,username,password,hostname,extra,name,grouping" >> $LPCSV;
+#        echo "url,type,username,password,hostname,extra,name,grouping" >> $LPCSV;
 #
 # Log password and applicable server name to CSV file
 #
